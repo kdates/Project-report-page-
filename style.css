@@ -1,0 +1,63 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  background: #f9f9f9;
+  font-size: 24px;
+  padding: 25px;
+}
+.navbar{
+  height: 130px;
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+}
+.logo{
+  width: 140px;
+  height: 130px;
+  padding: 0px;
+}
+.navbar ul{
+  float: right;
+  margin-right: 20px;
+}
+/* Removes bulleted list format */
+.navbar ul li{
+  list-style: none;
+  margin: 0 8 px;
+  display: inline-block;
+  line-height: 80px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 6px 13px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar ul li a:hover{
+  background-color: #964b00;
+}
+/* .navbar  ul li a.active,
+.navbar  ul li a:hover{
+  background: #964b00;
+  border-radius: 2px;
+} */
+
+
+.parallax-0{
+  background: url('img/photo-0.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+}
+.parallax-1{
+  background: url('img/photo-1.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+}
+.parallax-2{
+  background: url('img/photo-2.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+}
